@@ -1,0 +1,13 @@
+{
+    "scottjehl/Respond": {
+        "overrides": {
+            "*": {
+                "name": "respond",
+                "files":  [ "dest/**" ],
+                "pak": {
+                    "export": "dest/respond.min.js"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "@npm/animate.css": {
+        "overrides": {
+            "*": {
+                "pak": {
+                    "export": "animate.*"
+                }
+            }
+        }
+    }
+}

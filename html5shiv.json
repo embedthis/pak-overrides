@@ -1,0 +1,11 @@
+{
+    "@npm/html5shiv": {
+        "overrides": {
+            "*": {
+                "pak": {
+                    "_export": 'dist/html5shiv.*'
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "@npm/bootstrap": {
+        "overrides": {
+            "*": {
+                "files":  [ 
+                    "dist/**", 
+                    "!dist/js/npm.js", 
+                    "less/**" 
+                ],
+                "=dependencies": {
+                    "jquery": "x.*"
+                }
+            }
+        }
+    }
+}
