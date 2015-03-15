@@ -11,6 +11,7 @@
                     "patch": "https://github.com/embedthis/patch-php/archive/1.0.0.tar.gz"
                 },
                 "pak": {
+                    "name": "php",
                     "install": false
                 }
             }
