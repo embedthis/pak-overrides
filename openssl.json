@@ -12,7 +12,7 @@
                 },
                 "pak": {
                     "files": [
-                        "**/libcrypto.*"
+                        "**/libcrypto.*",
                         "**/libssl.*"
                     ]
                 }
