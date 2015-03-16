@@ -11,7 +11,10 @@
                     "patch": "https://github.com/embedthis/patch-openssl/archive/1.0.0.tar.gz"
                 },
                 "pak": {
-                    "install": false
+                    "files": [
+                        "**/libcrypto.*"
+                        "**/libssl.*"
+                    ]
                 }
             }
         }
