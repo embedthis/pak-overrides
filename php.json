@@ -12,7 +12,7 @@
                 },
                 "files": [
                     "**/libphp5.*"
-                ]
+                ],
                 "pak": {
                     "name": "php"
                 }
