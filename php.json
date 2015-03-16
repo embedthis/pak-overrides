@@ -10,9 +10,11 @@
                     "url": "git://github.com/php/php-src.git",
                     "patch": "https://github.com/embedthis/patch-php/archive/1.0.0.tar.gz"
                 },
+                "files": [
+                    "**/libphp5.*"
+                ]
                 "pak": {
-                    "name": "php",
-                    "install": false
+                    "name": "php"
                 }
             }
         }
