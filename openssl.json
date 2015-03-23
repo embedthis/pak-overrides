@@ -1,6 +1,6 @@
 {
     "openssl/openssl": {
-        "versions": "^OpenSSL_(\\d+)_(\\d+)_(\\d+)$",
+        "versions": "^OpenSSL_(\\d+)_(\\d+)_([\\da-z]+)$",
         "overrides": {
             ">=1.0.0": {
                 "name": "openssl",
