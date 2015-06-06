@@ -1,6 +1,6 @@
 {
     "ARMmbed/mbedtls": {
-        "versions": "^mbedtls-(\\d+)_(\\d+)_([\\d]+)$",
+        "versions": "^mbedtls-(\\d+)\.(\\d+)\.([\\d]+)$",
         "overrides": {
             ">=1.3.11": {
                 "name": "mbedtls",
