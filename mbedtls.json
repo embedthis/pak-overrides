@@ -5,6 +5,13 @@
             ">=1.3.11": {
                 "name": "mbedtls",
                 "description": "MbedTLS Source Code",
+                "version": "1.3.11",
+                "license": "GPLv2",
+                "keywords": [
+                    "mbedtls",
+                    "ssl",
+                    "tls"
+                ],
                 "repository": {
                     "type": "git",
                     "url": "git://github.com/ARMmbed/mbedtls.git",
