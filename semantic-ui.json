@@ -4,7 +4,7 @@
             "*": {
                 "files":  [ "dist/semantic.*", "dist/themes/**" ],
                 "=dependencies": {
-                    "jquery": "x.*",
+                    "jquery": "1.x",
                 },
                 "=scripts": {},
                 "pak": {
