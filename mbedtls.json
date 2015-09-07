@@ -2,7 +2,7 @@
     "ARMmbed/mbedtls": {
         "versions": "^mbedtls-(\\d+)\.(\\d+)\.([\\d]+)$",
         "overrides": {
-            ">=1.3.11": {
+            "~1.3": {
                 "name": "mbedtls",
                 "description": "MbedTLS Source Code",
                 "version": "1.3.11",
@@ -23,7 +23,29 @@
                 "pak": {
                     "import": true
                 }
-            }
+            },
+            "~2": {
+                "name": "mbedtls",
+                "description": "MbedTLS Source Code",
+                "license": "Apache",
+                "keywords": [
+                    "mbedtls",
+                    "ssl",
+                    "tls"
+                ],
+                "repository": {
+                    "type": "git",
+                    "url": "git://github.com/ARMmbed/mbedtls.git",
+                    "patch": "https://github.com/embedthis/patch-mbedtls/archive/2.1.0.tar.gz"
+                },
+                "files": [
+                    "dist/"
+                ],
+                "pak": {
+                    "import": true
+                }
+            },
+
         }
     }
 }
