@@ -1,0 +1,29 @@
+{
+    "aws/aws-iot-device-sdk-embedded-C": {
+        "versions": "^(\\d+)\.(\\d+)\.([\\d]+)$",
+        "overrides": {
+            "~1.3": {
+                "name": "ai",
+                "description": "AI Source Code",
+                "version": "1.0.1",
+                "license": "Apache",
+                "keywords": [
+                    "AWS",
+                    "IoT",
+                    "tls"
+                ],
+                "repository": {
+                    "type": "git",
+                    "url": "git://github.com/aws/aws-iot-device-sdk-embedded-C.git",
+                    "patch": "https://github.com/embedthis/patch-ai/archive/1.0.1.tar.gz"
+                },
+                "files": [
+                    "dist/"
+                ],
+                "pak": {
+                    "import": true
+                }
+            }
+        }
+    }
+}
