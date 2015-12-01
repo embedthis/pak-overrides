@@ -1,6 +1,6 @@
 {
     "aws/aws-iot-device-sdk-embedded-C": {
-        "versions": "^(\\d+)\.(\\d+)\.([\\d]+)$",
+        "versions": "^v(\\d+)\.(\\d+)\.(\\d+)$",
         "overrides": {
             "~1": {
                 "name": "ai",
