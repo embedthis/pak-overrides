@@ -10,12 +10,15 @@
                 "keywords": [
                     "AWS",
                     "IoT",
-                    "tls"
+                    "TLS"
                 ],
                 "repository": {
                     "type": "git",
                     "url": "git://github.com/aws/aws-iot-device-sdk-embedded-C.git",
                     "patch": "https://github.com/embedthis/patch-ai/archive/1.0.1.tar.gz"
+                },
+                "=dependencies": {
+                    "mbedtls": "~2"
                 },
                 "files": [
                     "dist/"
