@@ -45,7 +45,7 @@
                     "import": true
                 }
             },
-            ">=2.1.1 && < 2.1.9": {
+            "~2.1": {
                 "name": "mbedtls",
                 "description": "MbedTLS Source Code",
                 "license": "Apache",
@@ -87,7 +87,7 @@
                     "import": true
                 }
             },
-            ">=2.1.2": {
+            ">=2.2.0": {
                 "name": "mbedtls",
                 "description": "MbedTLS Source Code",
                 "license": "Apache",
