@@ -78,27 +78,6 @@
                 "repository": {
                     "type": "git",
                     "url": "git://github.com/ARMmbed/mbedtls.git",
-                    "patch": "https://github.com/embedthis/patch-mbedtls/archive/2.1.2.tar.gz"
-                },
-                "files": [
-                    "dist/"
-                ],
-                "pak": {
-                    "import": true
-                }
-            },
-            ">=2.2.0": {
-                "name": "mbedtls",
-                "description": "MbedTLS Source Code",
-                "license": "Apache",
-                "keywords": [
-                    "mbedtls",
-                    "ssl",
-                    "tls"
-                ],
-                "repository": {
-                    "type": "git",
-                    "url": "git://github.com/ARMmbed/mbedtls.git",
                     "patch": "https://github.com/embedthis/patch-mbedtls/archive/2.2.1.tar.gz"
                 },
                 "files": [
