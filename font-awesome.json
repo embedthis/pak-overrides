@@ -2,12 +2,10 @@
     "@npm/font-awesome": {
         "overrides": {
             "*": {
-                "pak": {
-                    "export": [ 
-                        'css/**', 
-                        'fonts/**' 
-                    ]
-                }
+                "export": [ 
+                    'css/**', 
+                    'fonts/**' 
+                ]
             }
         }
     }

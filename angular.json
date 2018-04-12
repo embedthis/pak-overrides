@@ -8,9 +8,7 @@
                     "angular-csp.css",
                     "!**.gzip"
                 ],
-                "pak": {
-                    "export": 'angular*'
-                }
+                "export": 'angular*'
             }
         }
     }

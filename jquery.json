@@ -4,18 +4,14 @@
         "overrides": {
             ">=2.1.0": {
                 "files":  "dist/jquery.*",
-                "pak": {
-                    "export": {
-                        "trim": 1
-                    }
+                "export": {
+                    "trim": 1
                 }
             },
             ">=1.11.1": {
                 "files":  "dist/jquery.*",
-                "pak": {
-                    "export": {
-                        "trim": 1
-                    }
+                "export": {
+                    "trim": 1
                 }
             }
         }
@@ -25,18 +21,14 @@
         "overrides": {
             ">=2.1.0": {
                 "files":  "dist/jquery.*",
-                "pak": {
-                    "export": {
-                        "trim": 1
-                    }
+                "export": {
+                    "trim": 1
                 }
             },
             ">=1.11.0": {
                 "files":  "dist/jquery.*",
-                "pak": {
-                    "export": {
-                        "trim": 1
-                    }
+                "export": {
+                    "trim": 1
                 }
             }
         }
@@ -46,15 +38,11 @@
         "overrides": {
             ">=2.1.0": {
                 "files":  "jquery.*",
-                "pak": {
-                    "export": "jquery.*"
-                }
+                "export": "jquery.*"
             },
             ">=1.11.0": {
                 "files":  "jquery.*",
-                "pak": {
-                    "export": "jquery.*"
-                }
+                "export": "jquery.*"
             }
         }
     }

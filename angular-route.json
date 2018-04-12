@@ -9,9 +9,7 @@
                 "=dependencies": {
                     "angular": "match"
                 },
-                "pak": {
-                    "export": 'angular*'
-                }
+                "export": 'angular*'
             }
         }
     }

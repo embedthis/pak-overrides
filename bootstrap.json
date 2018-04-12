@@ -10,13 +10,11 @@
                 "=dependencies": {
                     "jquery": "x.*"
                 },
-                "pak": {
-                    "render": {
-                        "css": [
-                            "css/bootstrap.*",
-                            "css/bootstrap-theme.*"
-                        ]
-                    }
+                "render": {
+                    "css": [
+                        "css/bootstrap.*",
+                        "css/bootstrap-theme.*"
+                    ]
                 }
             }
         }
