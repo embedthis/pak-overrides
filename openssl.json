@@ -2,7 +2,20 @@
     "openssl/openssl": {
         "versions": "^OpenSSL_(\\d+)_(\\d+)_([\\da-z]+)$",
         "overrides": {
-            "~1.0": {
+            "~1.0.x": {
+                "name": "openssl",
+                "description": "OpenSSL Source Code",
+                "repository": {
+                    "type": "git",
+                    "url": "git://github.com/openssl/openssl.git",
+                    "patch": "https://github.com/embedthis/patch-openssl/archive/1.0.1.tar.gz"
+                },
+                "files": [
+                    "**/libcrypto.*",
+                    "**/libssl.*"
+                ]
+            },
+            "~1.1.0": {
                 "name": "openssl",
                 "description": "OpenSSL Source Code",
                 "repository": {
@@ -15,7 +28,7 @@
                     "**/libssl.*"
                 ]
             },
-            ">=1.1.0": {
+            ">=1.1.1": {
                 "name": "openssl",
                 "description": "OpenSSL Source Code",
                 "repository": {
